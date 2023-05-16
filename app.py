@@ -62,6 +62,22 @@ def upload():
                          'Tomato_Late_blight', 'Tomato_Leaf_Mold', 'Tomato_Septoria_leaf_spot',
                          'Tomato_Spider_mites_Two_spotted_spider_mite', 'Tomato__Target_Spot',
                          'Tomato__Tomato_YellowLeaf__Curl_Virus', 'Tomato__Tomato_mosaic_virus', 'Tomato_healthy']
+        medicines = [
+                        'copper fungicide',
+                        '',
+                        'copper fungicide',
+                        'copper fungicide',
+                        '',
+                        'copper fungicide',
+                        'copper fungicide',
+                        'copper fungicide',
+                        'copper fungicide',
+                        'insecticide',
+                        'phytoalexin inducer',
+                        'virus free seeds',
+                        ''
+                        ]
+
         a = preds[0]
         ind=np.argmax(a)
         print('Prediction:', disease_class[ind])
